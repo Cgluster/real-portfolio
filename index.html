@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <script src="app.js" defer></script>
     <title>Clifford Luster's Portfolio</title>
   </head>
   <body>
     <nav class="main-navigation">
-      <!-- Black top -->
       <h2 class="navigation-header">Clifford Luster</h2>
       <ul class="navigation-bar">
         <li class="navigation-item"><a href="#about-me">About Me</a></li>
@@ -21,11 +24,81 @@
     </nav>
 
     <div class="lv-picture">
-      <img src="./images/lv-header.jpg" width="100%" height="auto" />
+      <img
+        src="./images/lv-header.jpg"
+        alt="Las Vegas Strip"
+        class="lv-image"
+      />
     </div>
-    <!-- Las Vegas picture -->
-    <!-- Project area (maybe have a fade in and fade out?)
-    Skills
-    Contact -->
+    <!-- About Me -->
+    <section id="about-me">
+      <div class="about-me-container">
+        <h2>About Me</h2>
+        <p>
+          My name is Clifford Luster. I am a Front-End Developer from Las Vegas,
+          NV.
+        </p>
+        <p>I enjoy building projects using React and Redux.</p>
+        <div class="image-row">
+          <div class="image-column">
+            <img src="./images/react.png" alt="React logo" />
+          </div>
+          <div class="image-column">
+            <img src="./images/redux.png" alt="Redux logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project area -->
+    <hr />
+    <section id="projects"></section>
+    <!-- Skills -->
+    <hr />
+    <section id="skills">
+      <h2 class="skills-header">Skills</h2>
+      <div class="skills-container">
+        <i class="devicon-html5-plain skills-icon"></i>
+        <i class="devicon-css3-plain skills-icon"></i>
+        <i class="devicon-javascript-plain skills-icon"></i>
+        <i class="devicon-react-original skills-icon"></i>
+        <i class="devicon-redux-original skills-icon"></i>
+        <i class="devicon-nodejs-plain skills-icon"></i>
+        <i class="devicon-jest-plain skills-icon"></i>
+        <i class="devicon-git-plain skills-icon"></i>
+      </div>
+    </section>
+    <!-- Contact, include resume download -->
+    <hr />
+    <section id="contact">
+      <h2 class="contact-header">Contact</h2>
+      <p class="contact-message-me">Feel free to contact me.</p>
+      <div>
+        <a href="https://www.linkedin.com/in/clifford-luster-0774b2103/"
+          ><i class="devicon-linkedin-plain contact-icon"></i
+        ></a>
+        <a href="https://github.com/Cgluster"
+          ><i class="devicon-github-original contact-icon"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>Clifford Luster 2022</footer>
+    <!-- Button to scroll to top of page -->
+    <button class="back-to-top hidden">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="back-to-top-icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M7 11l5-5m0 0l5 5m-5-5v12"
+        />
+      </svg>
+    </button>
   </body>
 </html>
