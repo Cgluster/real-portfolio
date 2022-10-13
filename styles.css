@@ -1,0 +1,73 @@
+/* General style */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header section */
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    background-color: rgb(25, 24, 24);
+    color:rgb(235, 237, 239);
+}
+
+.navigation-header {
+    margin-left: 50px;
+}
+
+.navigation-bar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.navigation-bar ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+}
+
+.navigation-item {
+    margin-right: 3rem;
+}
+
+.navigation-item li {
+    display: list-item;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color:rgb(235, 237, 239);
+    font-weight: 800px;
+}
+
+.navigation-item:hover {
+    text-decoration: underline;
+}
+
+/* LV Picture */
+/* About Me */
+/* Projects */
+/* Skills */
+/* Contact */
