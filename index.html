@@ -13,6 +13,7 @@
     <title>Clifford Luster's Portfolio</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="main-navigation">
       <h2 class="navigation-header">Clifford Luster</h2>
       <ul class="navigation-bar">
@@ -23,6 +24,7 @@
       </ul>
     </nav>
 
+    <!-- Picture of Las Vegas -->
     <div class="lv-picture">
       <img
         src="./images/lv-header.jpg"
@@ -30,6 +32,7 @@
         class="lv-image"
       />
     </div>
+
     <!-- About Me -->
     <section id="about-me">
       <div class="about-me-container">
@@ -49,9 +52,76 @@
         </div>
       </div>
     </section>
+
     <!-- Project area -->
     <hr />
-    <section id="projects"></section>
+    <section id="projects">
+      <div class="projects-header">
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-container">
+        <details class="project-column">
+          <summary class="project-title">Seddit - A Reddit Lookalike</summary>
+          <img
+            src="./images/seddit_sample.jpg"
+            alt="Seddit - A Reddit lookalike"
+            class="project-image"
+          />
+          <p class="project-description">
+            A Reddit lookalike site that uses React and Redux. API used to fetch
+            posts.
+          </p>
+          <p class="project-code">
+            <a href="https://github.com/Cgluster/seddit">Check The Code</a>
+          </p>
+        </details>
+        <details class="project-column">
+          <summary class="project-title">Landing Page</summary>
+          <img
+            src="./images/landing.jpg"
+            alt="Landing Page"
+            class="project-image"
+          />
+          <p class="project-description">
+            A simple landing page that asks a user for their email to get an
+            e-book.
+          </p>
+          <p class="project-code">
+            <a href="https://github.com/Cgluster/new-landing-page"
+              >Check The Code</a
+            >
+          </p>
+        </details>
+        <details class="project-column">
+          <summary class="project-title">Grocery Cart</summary>
+          <img
+            src="./images/grocery-cart.jpg"
+            alt="A Grocery Cart sample"
+            class="project-image"
+          />
+          <p class="project-description">
+            A page that allows a user to select their desired products. The user
+            can add, decrement or remove items in cart.
+          </p>
+          <p class="project-code">
+            <a href="https://github.com/Cgluster/grocery-cart"
+              >Check The Code</a
+            >
+          </p>
+        </details>
+        <details class="project-column">
+          <summary class="project-title">
+            Coffee Shop - Work in Progress
+          </summary>
+          <!-- <img src="" alt="" class="project-image" /> -->
+          <p class="project-description">
+            Site will allow users navigate site for various activities.
+          </p>
+          <!-- <p class="project-code"><a href="">Check The Code</a></p> -->
+        </details>
+      </div>
+    </section>
+
     <!-- Skills -->
     <hr />
     <section id="skills">
@@ -67,12 +137,13 @@
         <i class="devicon-git-plain skills-icon"></i>
       </div>
     </section>
-    <!-- Contact, include resume download -->
+
+    <!-- Contact, include resume download, maybe do a card? -->
     <hr />
     <section id="contact">
       <h2 class="contact-header">Contact</h2>
       <p class="contact-message-me">Feel free to contact me.</p>
-      <div>
+      <div class="contact-icons">
         <a href="https://www.linkedin.com/in/clifford-luster-0774b2103/"
           ><i class="devicon-linkedin-plain contact-icon"></i
         ></a>
@@ -82,7 +153,9 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer>Clifford Luster 2022</footer>
+
     <!-- Button to scroll to top of page -->
     <button class="back-to-top hidden">
       <svg

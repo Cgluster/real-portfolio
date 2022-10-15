@@ -105,6 +105,42 @@ nav {
 }
 
 /* Projects */
+
+.projects-header {
+    text-align: center;
+}
+
+.projects-container {
+    text-align: center;
+}
+
+.project-title {
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.project-image {
+    height: 400px;
+    width: auto;
+    margin-top: 0.5rem;
+}
+
+.project-code a {
+    text-decoration: none;
+    color:rgb(235, 237, 239);
+    font-weight: 800px;
+}
+
+.project-code a:hover {
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 900px) {
+    .project-image {
+        width: 450px;
+    }
+}
+
 /* Skills */
 
 .skills-header {
@@ -113,13 +149,15 @@ nav {
 
 .skills-container {
     font-size: 3em;
-    width: 3em;
+    width: 28%;
     margin-top: 8px;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .skills-icon {
-    padding-left: 5px;
+    padding-left: 6px;
 }
 
 /* Contact */
@@ -132,6 +170,27 @@ nav {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
+}
+
+.contact-icon {
+    font-size: 3em;
+    width: 3em;
+    margin-right: 10px;
+    color: rgb(235, 237, 239);
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.contact-icon:hover {
+    opacity: 0.3;
+}
+
+.contact-icons {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-bottom: 1rem;
+    width: 50%;
 }
 
 /* Footer */
